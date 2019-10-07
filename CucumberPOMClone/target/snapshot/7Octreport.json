@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 159387500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to write a step with",
+            "match": {
+              "location": "stepdefofrunner.i_want_to_write_a_step_with()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3392900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for the sd521414123 and name1 in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "521414123",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefofrunner.i_check_for_the_sd_and_name_in_step(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login",
+            "match": {
+              "location": "stepdefofrunner.login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 110400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to write a step with",
+            "match": {
+              "location": "stepdefofrunner.i_want_to_write_a_step_with()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for the sdfsfawefawe7 and name2 in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 28
+                },
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefofrunner.i_check_for_the_sdfsfawefawe_and_name_in_step(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login",
+            "match": {
+              "location": "stepdefofrunner.login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with herokuApp",
+        "description": "",
+        "id": "login-functionality;login-with-herokuapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13793663600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on herokuApp",
+            "match": {
+              "location": "LoginPOMTest.user_is_on_herokuApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1235030601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginPOMTest.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125299,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logged in successful",
+            "match": {
+              "location": "LoginPOMTest.user_logged_in_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "loginPOM.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
